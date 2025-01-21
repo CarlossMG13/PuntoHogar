@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* fuente Hatton */
+@font-face {
+    font-family: 'Hatton'; /* Nombre base de la fuente */
+    src: url('fonts/PPHatton-Medium.otf') format('truetype');
+    font-weight: 500; /* Peso para Medium */
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('fonts/PPHatton-Bold.otf') format('truetype');
+    font-weight: 700; /* Peso para Bold */
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('fonts/PPHatton-Ultralight.otf') format('truetype');
+    font-weight: 200; /* Peso para UltraLight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('fonts/PPHatton-UltralightItalic.otf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Fuente open sauce */
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Black.ttf') format('truetype');
+    font-weight: 600; /* Peso para Medium */
+    font-style: black;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Bold.ttf') format('truetype');
+    font-weight: 500; /* Peso para Medium */
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Light.ttf') format('truetype');
+    font-weight: 400; /* Peso para Medium */
+    font-style: Ligth;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Medium.ttf') format('truetype');
+    font-weight: 300; /* Peso para Medium */
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Regular.ttf') format('truetype');
+    font-weight: 700; /* Peso para Medium */
+    font-style: regular;
+}
+
+
+
+/* css de la pagina */
+header{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+
+header h1{
+    font-family: Hatton, serif;
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 100px;
+}
+
+header h3{
+    font-family: OpenSauce;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta el origen al centro */
+    color: rgba(0, 0, 0, 0.404);
+    font-size: 17px;
+    font-weight: 400;
+}
