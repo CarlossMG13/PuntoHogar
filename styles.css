@@ -70,6 +70,11 @@
 
 
 /* css de la pagina */
+
+body{
+    position: relative;
+}
+
 header{
     width: 100%;
     height: 150px;
@@ -92,7 +97,65 @@ header h3{
     top: 62%;
     left: 50%;
     transform: translate(-50%, -50%); /* Ajusta el origen al centro */
-    color: rgba(0, 0, 0, 0.404);
+    color: rgba(0, 0, 0, 0.534);
     font-size: 17px;
     font-weight: 400;
 }
+
+header img{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    top: 20%;
+    right: 5%;
+
+}
+
+.cuadrado{
+    position: absolute;
+    top: 276%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta el origen al centro */
+    background: radial-gradient(circle at left,#000000,#3331C4);
+    width: 1095px;
+    height: 335px;
+    border-radius: 36px;
+}
+
+.cuadrado img{
+    position: absolute;
+    top: -12%;
+    left: 54%;
+    height: 500px;
+    width: 500px;
+}
+
+.cuadrado h2{
+    position: absolute;
+    color: white;
+    font-family: OpenSauce;
+    top: 40%;
+    left: 68px;
+}
+
+h3 {
+    position: absolute;
+    color: white;
+    font-family: OpenSauce;
+    top: 65%;
+    left: 67px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.cuadrado p{
+    position: absolute;
+    color: white;
+    font-family: OpenSauce;
+    top: 34%;
+    left: 69px;
+}
+
+
+
