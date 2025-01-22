@@ -95,8 +95,8 @@ header h3{
     font-family: OpenSauce;
     position: absolute;
     top: 62%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Ajusta el origen al centro */
+    left: 45%;
+    transform: translate(-50%, -50%);
     color: rgba(0, 0, 0, 0.534);
     font-size: 17px;
     font-weight: 400;
@@ -113,13 +113,23 @@ header img{
 
 .cuadrado{
     position: absolute;
-    top: 276%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Ajusta el origen al centro */
-    background: radial-gradient(circle at left,#000000,#3331C4);
+    top: 178%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at left, #000000, #3331C4);
     width: 1095px;
     height: 335px;
     border-radius: 36px;
+    animation-fill-mode: both;
+    -webkit-box-shadow: 10px 9px 57px 12px rgba(0,0,0,0.88);
+    -moz-box-shadow: 10px 9px 57px 12px rgba(0,0,0,0.88);
+    box-shadow: 10px 9px 57px 12px rgba(0,0,0,0.88);
+    transition: 500ms; 
+}
+
+ .cuadrado:hover{
+    top: 170%;
+    transition: 500ms;
 }
 
 .cuadrado img{
@@ -159,3 +169,16 @@ h3 {
 
 
 
+/* Animaciones */
+.animate__fadeInLeftBig{
+    animation-duration: 1000ms;
+}
+
+.animate__fadeInDownBig{
+    animation-duration: 1000ms;
+}
+
+.animate__fadeInRightBig{
+    animation-duration: 1000ms;
+
+}
