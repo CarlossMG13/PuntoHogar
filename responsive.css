@@ -330,7 +330,7 @@
 
 @media (max-width: 425px) {
     header {
-        width: 296%;
+        width: 312%;
         height: 150px;
         position: relative;
     }
@@ -338,7 +338,44 @@
     .cuadrado {
         position: absolute;
         top: 216px;
-        left: 148%;
+        left: 156%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .Para_ti {
+        position: relative;
+        height: 500px;
+        width: 295%;
+        margin-top: 457px;
+    }
+
+    footer {
+        width: 295%;
+        bottom: -750px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 430px) {
+    header {
+        width: 312%;
+        height: 150px;
+        position: relative;
+    }
+
+    .cuadrado {
+        position: absolute;
+        top: 216px;
+        left: 156%;
         transform: translate(-50%, -50%);
         width: 1095px;
         height: 335px;
@@ -544,3 +581,4 @@
         position: absolute;
     }
 }
+
