@@ -128,9 +128,9 @@ header img{
     height: 335px;
     border-radius: 36px;
     animation-fill-mode: both;
-    -webkit-box-shadow: 10px 9px 57px 12px rgba(0, 0, 0, 0.88);
-    -moz-box-shadow: 10px 9px 57px 12px rgba(0, 0, 0, 0.88);
-    box-shadow: 10px 9px 57px 12px rgba(0, 0, 0, 0.88);
+    -webkit-box-shadow: 10px 10px 102px -36px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 102px -36px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 102px -36px rgba(0,0,0,0.75);
     transition: 500ms;
 }
 
@@ -406,6 +406,61 @@ font-weight: 500;
 .card-img-top{
     z-index: -1;
 }
+
+footer{
+    width: 100%;
+    bottom: -750px;
+    position: absolute;
+    height: 202px;
+    background: #3E1E04;
+    display: flex;
+    justify-content: center;
+}
+
+.linea{
+    width: 1400px;
+    height: 1px;
+    background-color: white;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.socialMedia{
+    width: 148px;
+    height: 24.4px;
+    position: absolute;
+    top: 147.4px;
+    left: 41.2%;
+}
+
+.socialMedia p{
+    height: 30px;
+    width: 156.2px;
+    color: #ffffffb8;
+}
+
+.footerSlogan{
+    width: 230px;
+    height: 96.2px;
+    position: absolute;
+    left: 42.2px;
+    top: 8.6px;
+}
+
+.footerSlogan img{
+    height: 94.6px;
+    width: 151.4px;
+}
+
+.footerSlogan p{
+    color: white;
+    font-size: 12.2px;
+    font-family: 'OpenSauce';
+    left: 29.4px;
+    position: absolute;
+    top: 81px;
+}
+
 /* Animaciones */
 .animate__fadeInLeftBig{
     animation-duration: 1000ms;
