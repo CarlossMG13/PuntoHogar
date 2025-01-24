@@ -1,0 +1,66 @@
+/* fuente Hatton */
+@font-face {
+    font-family: 'Hatton'; /* Nombre base de la fuente */
+    src: url('fonts/PPHatton-Medium.otf') format('truetype');
+    font-weight: 500; /* Peso para Medium */
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('fonts/PPHatton-Bold.otf') format('truetype');
+    font-weight: 700; /* Peso para Bold */
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('fonts/PPHatton-Ultralight.otf') format('truetype');
+    font-weight: 200; /* Peso para UltraLight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('fonts/PPHatton-UltralightItalic.otf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Fuente open sauce */
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Black.ttf') format('truetype');
+    font-weight: 600; /* Peso para Medium */
+    font-style: black;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Bold.ttf') format('truetype');
+    font-weight: 500; /* Peso para Medium */
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Light.ttf') format('truetype');
+    font-weight: 400; /* Peso para Medium */
+    font-style: Ligth;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Medium.ttf') format('truetype');
+    font-weight: 300; /* Peso para Medium */
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'OpenSauce'; /* Nombre base de la fuente */
+    src: url('fonts/OpenSauceOne-Regular.ttf') format('truetype');
+    font-weight: 700; /* Peso para Medium */
+    font-style: regular;
+}
+
+

@@ -1,0 +1,546 @@
+@media (max-width: 1440px){
+    .Para_ti{
+        margin-top: 398px;
+    }
+}
+
+@media (max-width: 1024px){
+    header {
+        width: 124%;
+        height: 150px;
+        position: relative;
+    }
+
+    .cuadrado{
+            position: absolute;
+            top: 216px;
+            left: 61%;
+            transform: translate(-50%, -50%);
+            width: 1095px;
+            height: 335px;
+            box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+            background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+            border-radius: 36px;
+    }
+
+    .cuadrado:hover {
+        position: absolute;
+        top: 216px;
+        left: 61%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .casaG {
+        position: absolute;
+        top: 25%;
+        border-radius: 0px 36px 36px 0px;
+        width: 272px;
+        height: 236px;
+        -webkit-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .casa {
+        position: absolute;
+        top: 25%;
+        right: 2px;
+        border-radius: 0px 36px 36px 0px;
+        width: 274px;
+        height: 236px;
+        -webkit-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .Para_ti {
+        position: relative;
+        height: 500px;
+        width: 126%;
+        margin-top: 457px;
+    }
+
+    .Para_ti p{
+        position: absolute;
+        font-family: Hatton;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        font-weight: lighter;
+        color: black;
+    }
+    
+    .Para_ti h4{
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 74%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        font-weight: 700;
+        color: black;
+        text-align-last: center;
+    }
+    
+    .Para_ti b{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    
+    .Para_ti button{
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 91%;
+        left: 50%;
+        height: 40px;
+        width: 150px;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        border-style: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        text-align-last: center;
+        background: #25231e;
+    }
+    
+
+    .blur {
+        height: 344px;
+        width: 727px;
+        filter: brightness(0.1);
+        position: absolute;
+        top: 185%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+        background-color: #000000c7;
+        z-index: 1;
+    }
+
+    .Servicio1{
+        height: 350px;
+        width: 727px;
+        filter: blur(3px);
+        position: absolute;
+        top: 185%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;       
+    }
+
+    .preefooter {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 750px;
+        width: 1258px;
+        height: 750px;
+        gap: 20px;
+    }
+
+    footer {
+        width: 125%;
+        bottom: -750px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linea{
+        width: 1143px;
+        height: 1px;
+        background-color: white;
+        margin-top: 120px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 768px){
+    header {
+        width: 163%;
+        height: 150px;
+        position: relative;
+    }
+
+    .cuadrado{
+        position: absolute;
+        top: 216px;
+        left: 82%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .cuadrado:hover {
+        position: absolute;
+        top: 216px;
+        left: 82%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .casaG {
+        position: absolute;
+        top: 25%;
+        border-radius: 0px 36px 36px 0px;
+        width: 272px;
+        height: 236px;
+        -webkit-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .casa {
+        position: absolute;
+        top: 25%;
+        right: -4px;
+        border-radius: 0px 36px 36px 0px;
+        width: 274px;
+        height: 236px;
+        -webkit-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .Para_ti {
+        position: relative;
+        height: 500px;
+        width: 163%;
+        margin-top: 457px;
+    }
+
+    .Para_ti p{
+        position: absolute;
+        font-family: Hatton;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        font-weight: lighter;
+        color: black;
+    }
+    
+    .Para_ti h4{
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 74%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        font-weight: 700;
+        color: black;
+        text-align-last: center;
+    }
+    
+    .Para_ti b{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    
+    .Para_ti button{
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 91%;
+        left: 50%;
+        height: 40px;
+        width: 150px;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        border-style: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        text-align-last: center;
+        background: #25231e;
+    }
+    
+
+    .blur {
+        height: 344px;
+        width: 727px;
+        filter: brightness(0.1);
+        position: absolute;
+        top: 185%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+        background-color: #000000c7;
+        z-index: 1;
+    }
+
+    .Servicio1{
+        height: 350px;
+        width: 727px;
+        filter: blur(3px);
+        position: absolute;
+        top: 185%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;       
+    }
+
+    .preefooter {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 750px;
+        width: 1258px;
+        height: 750px;
+        gap: 20px;
+    }
+
+    footer {
+        width: 163%;
+        bottom: -750px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linea{
+        width: 1143px;
+        height: 1px;
+        background-color: white;
+        margin-top: 120px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        width: 296%;
+        height: 150px;
+        position: relative;
+    }
+
+    .cuadrado {
+        position: absolute;
+        top: 216px;
+        left: 148%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .Para_ti {
+        position: relative;
+        height: 500px;
+        width: 295%;
+        margin-top: 457px;
+    }
+
+    footer {
+        width: 295%;
+        bottom: -750px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        width: 335%;
+        height: 150px;
+        position: relative;
+    }
+
+    .cuadrado:hover {
+        position: absolute;
+        top: 216px;
+        left: 171%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .cuadrado {
+        position: absolute;
+        top: 216px;
+        left: 171%;
+        transform: translate(-50%, -50%);
+        width: 1095px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .Para_ti {
+        position: relative;
+        height: 500px;
+        width: 334%;
+        margin-top: 457px;
+    }
+
+    footer {
+        width: 335%;
+        bottom: -1030px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .cuadrado:hover {
+        position: absolute;
+        top: 216px;
+        left: 171%;
+        transform: translate(-50%, -50%);
+        width: 982px;
+        height: 317px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+    
+    .cuadrado {
+        position: absolute;
+        top: 216px;
+        left: 171%;
+        transform: translate(-50%, -50%);
+        width: 982px;
+        height: 317px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+
+    .cuadrado img {
+        position: absolute;
+        top: -19%;
+        left: 54%;
+        height: 500px;
+        width: 500px;
+    }
+
+    .Para_ti p {
+        position: absolute;
+        font-family: Hatton;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 34px;
+        font-weight: lighter;
+        color: black;
+    }
+
+    .Para_ti h4 {
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 74%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 26px;
+        font-weight: 700;
+        color: black;
+        text-align-last: center;
+    }
+
+    .Para_ti b {
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .blur {
+        height: 344px;
+        width: 727px;
+        filter: brightness(0.1);
+        position: absolute;
+        top: 165%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+        background-color: #000000c7;
+        z-index: 1;
+    }
+
+    .Servicio1 {
+        height: 350px;
+        width: 727px;
+        filter: blur(3px);
+        position: absolute;
+        top: 165%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+    }
+
+    .Para_ti h5 {
+        position: absolute;
+        font-family: 'Hatton';
+        top: 167%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 55px;
+        font-weight: normal;
+        color: #ffffff;
+        text-align-last: center;
+        z-index: 2;
+    }
+
+    .preefooter {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 695px;
+        width: 1053px;
+        height: 750px;
+        gap: 20px;
+    }
+
+
+    footer {
+        width: 339%;
+        bottom: -1133px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linea {
+        width: 844px;
+        height: 1px;
+        background-color: white;
+        margin-top: 120px;
+        position: absolute;
+    }
+}
