@@ -444,6 +444,391 @@
     }
 }
 
+@media (max-width: 481px){
+
+    header {
+        width: 100%;
+        height: 150px;
+        position: relative;
+    }
+
+    header h1 {
+        font-family: Hatton, serif;
+        font-weight: 400;
+        font-size: 12px;
+        position: absolute;
+        top: 29%;
+        left: 35%;
+    }
+
+    header h3 {
+        font-family: OpenSauce;
+        position: absolute;
+        top: 38%;
+        left: 29%;
+        transform: translate(-50%, -50%);
+        color: rgba(0, 0, 0, 0.534);
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    header img {
+        visibility: hi;
+        position: absolute;
+        width: 100px;
+        height: 70px;
+        top: 8%;
+        visibility: hidden;
+        right: -1%;
+    }
+
+    .cuadrado {
+        position: absolute;
+        top: 216px;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        width: 339px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .cuadrado p {
+        position: absolute;
+        color: white;
+        font-family: OpenSauce;
+        top: 17%;
+        font-size: 17px;
+        left: 50px;
+    }
+
+    .cuadrado h2 {
+        position: absolute;
+        color: white;
+        font-family: OpenSauce;
+        top: 30%;
+        left: 50px;
+        font-size: 20px;
+    }
+    
+    .cuadrado h3 {
+        width: 299px;
+        position: absolute;
+        color: white;
+        font-family: OpenSauce;
+        top: 51%;
+        left: 50px;
+        font-weight: 700;
+        font-size: 16px;
+        z-index: 1;
+    }
+
+
+    .cuadrado:hover {
+        position: absolute;
+        top: 216px;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        width: 339px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
+    .cuadrado img {
+        position: absolute;
+        top: 24%;
+        left: 34%;
+        height: 320px;
+        width: 342px;
+        visibility: hidden;
+    }
+
+    .Para_ti {
+        position: relative;
+        height: 500px;
+        width: 100%;
+        margin-top: 457px;
+    }
+
+    .casaG {
+        position: absolute;
+        top: 11%;
+        border-radius: 0px 36px 36px 0px;
+        width: 109px;
+        height: 113px;
+        -webkit-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .casa {
+        position: absolute;
+        top: 25%;
+        right: -4px;
+        border-radius: 0px 36px 36px 0px;
+        width: 96px;
+        height: 111px;
+        -webkit-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        box-shadow: 8px 1px 28px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .Para_ti p {
+        position: absolute;
+        font-family: Hatton;
+        top: 39%;
+        left: 64%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        font-weight: lighter;
+        color: black;
+        width: 324px;
+    }
+
+    .Para_ti h4 {
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        font-weight: 700;
+        color: black;
+        text-align-last: center;
+        width: 249px;
+    }
+
+    .Para_ti h5 {
+        position: absolute;
+        font-family: 'Hatton';
+        top: 106%;
+        left: 54%;
+        transform: translate(-50%, -50%);
+        font-size: 55px;
+        font-weight: normal;
+        color: #ffffff;
+        text-align-last: center;
+        z-index: 2;
+    }
+
+    .blur {
+        height: 260px;
+        width: 370px;
+        filter: brightness(0.1);
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+        background-color: #000000c7;
+        z-index: 1;
+    }
+
+    .Para_ti b {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .Para_ti button {
+        position: absolute;
+        font-family: 'OpenSauce';
+        top: 65%;
+        left: 50%;
+        height: 40px;
+        width: 150px;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        border-style: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        text-align-last: center;
+        background: #25231e;
+    }
+
+
+
+    .blur {
+        height: 260px;
+        width: 370px;
+        filter: brightness(0.1);
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+        background-color: #000000c7;
+        z-index: 1;
+    }
+
+    .Servicio1 {
+        height: 260px;
+        width: 370px;
+        filter: brightness(0.1);
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 36px;
+        background-color: #000000c7;
+        z-index: 1;
+    }
+
+    .preefooter {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 179px;
+        width: 100%;
+        height: 750px;
+        gap: 20px;
+    }
+
+    .carta1 {
+        height: 320px;
+        width: 264px;
+        font-family: 'Hatton';
+        border-radius: 25px;
+        background: #ecedef;
+        z-index: 1;
+    }
+
+    .carta1 img {
+        height: 203px;
+        width: 261px;
+        border-radius: 20px;
+        background: #ecedef;
+    }
+
+    .carta1 h6 {
+        color: black;
+        margin-top: 11px;
+        font-size: 23px;
+        margin-left: 31px;
+    }
+
+    .carta1 p {
+        color: black;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: 31px;
+        font-family: 'OpenSauce';
+        font-weight: 400;
+    }
+
+    .carta2 {
+        height: 320px;
+        width: 264px;
+        font-family: 'Hatton';
+        border-radius: 25px;
+        background: #ecedef;
+        z-index: 1;
+    }
+
+    .carta2 img {
+        height: 203px;
+        width: 261px;
+        border-radius: 20px;
+        background: #ecedef;
+    }
+
+    .carta2 h6 {
+        color: black;
+        margin-top: 11px;
+        font-size: 23px;
+        margin-left: 31px;
+    }
+
+    .carta2 p {
+        color: black;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: 31px;
+        font-family: 'OpenSauce';
+        font-weight: 400;
+    }
+
+        .carta3 {
+        height: 320px;
+        width: 264px;
+        font-family: 'Hatton';
+        border-radius: 25px;
+        background: #ecedef;
+        z-index: 1;
+    }
+
+    .carta3 img {
+        height: 203px;
+        width: 261px;
+        border-radius: 20px;
+        background: #ecedef;
+    }
+
+    .carta3 h6 {
+        color: black;
+        margin-top: 11px;
+        font-size: 23px;
+        margin-left: 31px;
+    }
+
+    .carta3 p {
+        color: black;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: 31px;
+        font-family: 'OpenSauce';
+        font-weight: 400;
+    }
+
+    footer {
+        width: 100%;
+        bottom: -750px;
+        position: absolute;
+        height: 202px;
+        background: #3E1E04;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linea {
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        margin-top: 120px;
+        position: absolute;
+    }
+
+
+    .footerSlogan img {
+        height: 73.6px;
+        width: 120.4px;
+        position: absolute;
+        left: -50px;
+    }
+
+    .footerSlogan p {
+        color: white;
+        font-size: 12.2px;
+        font-family: 'OpenSauce';
+        left: -21.6px;
+        position: absolute;
+        top: 66px;
+    }
+
+    .linea {
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        margin-top: 111px;
+        position: absolute;
+    }
+}
+
 @media (max-width: 431px){
 
     header {
