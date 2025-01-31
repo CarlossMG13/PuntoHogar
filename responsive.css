@@ -1261,6 +1261,18 @@
         border-radius: 36px;
     }
 
+    .cuadrado:hover {
+        position: absolute;
+        top: 216px;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        width: 339px;
+        height: 335px;
+        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
+        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
+        border-radius: 36px;
+    }
+
     .cuadrado p {
         position: absolute;
         color: white;
@@ -1593,43 +1605,6 @@
         background-color: white;
         margin-top: 111px;
         position: absolute;
-    }
-}
-
-@media (max-width: 414px) {
-    header {
-        width: 312%;
-        height: 150px;
-        position: relative;
-    }
-
-    .cuadrado {
-        position: absolute;
-        top: 216px;
-        left: 156%;
-        transform: translate(-50%, -50%);
-        width: 1095px;
-        height: 335px;
-        box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 102px -36px;
-        background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(51, 49, 196), rgb(0, 0, 0), rgb(51, 49, 196)) 0% 0% / 400% 400%;
-        border-radius: 36px;
-    }
-
-    .Para_ti {
-        position: relative;
-        height: 500px;
-        width: 295%;
-        margin-top: 457px;
-    }
-
-    footer {
-        width: 295%;
-        bottom: -750px;
-        position: absolute;
-        height: 202px;
-        background: #3E1E04;
-        display: flex;
-        justify-content: center;
     }
 }
 
