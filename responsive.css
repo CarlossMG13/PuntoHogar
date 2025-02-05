@@ -34,6 +34,10 @@
 }
 
 @media (max-width: 1100px){
+    .cuadroPapa a{
+        text-decoration: none;
+    }
+
     .edi {
         height: 0px;
         width: 0px;
