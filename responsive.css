@@ -1,0 +1,218 @@
+@media (max-width:1410px) {
+    .ima{
+        visibility: hidden;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        align-content: center;
+        align-items: center;
+    }
+    header .h {
+        font-family: Hatton;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    header .H {
+        font-family: OpenSauce;
+        color: rgba(0, 0, 0, 0.534);
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    header .ima {
+        height: 10px;
+    }
+
+    .NS{
+        top: 28em;
+    }
+}
+
+@media (max-width: 1100px){
+    .edi {
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
+    
+    .cuadrado {
+        width: 53.438em;
+        display: flex;
+        text-align: center;
+        height: 325px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .cuadrado p {
+        position: static;
+        color: white;
+        font-family: OpenSauce;
+    }
+
+    .cuadradoh {
+        position: static;
+        color: white;
+        font-family: OpenSauce;
+    }
+
+    .cuadrado h3 {
+        position: static;
+        color: white;
+        font-family: OpenSauce;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 860px){
+    .cuadrado {
+        width: 35.438em;
+        display: flex;
+        text-align: center;
+        height: 325px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .casa, .casaG {
+        width: 129px;
+        height: 130px;
+    }
+
+    .Para_ti p{
+        font-size: 25px;
+    }
+
+    .Para_ti h4{
+        font-size: 20px;
+    } 
+
+    .NS{
+        top: 27.3em;
+    }
+
+    .paratu img {
+        height: 373px;
+        width: 34em;
+        z-index: 0;
+        border-radius: 20px;
+        filter: blur(4px);
+      }
+      
+      .blur {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        height: 373px;
+        border-radius: 20px;
+        width: 34em;
+        background: #00000073;
+      }
+}
+
+@media (max-width: 580px){
+    .cuadrado {
+        width: 21.438em;
+        display: flex;
+        text-align: center;
+        height: 325px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+
+    .casa, .casaG {
+        width: 109px;
+        height: 110px;
+    }
+
+    .Para_ti p{
+        font-size: 25px;
+    }
+
+
+
+    .Para_ti h4{
+        font-size: 20px;
+    } 
+
+    .NS {
+        font-size: 34px;
+        top: 37.9em;
+    }
+
+    .blur {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        height: 317px;
+        border-radius: 20px;
+        width: 22em;
+        background: #00000073;
+    }
+
+    .paratu img {
+        height: 316px;
+        width: 22em;
+        z-index: 0;
+        border-radius: 20px;
+        filter: blur(4px);
+    }
+}
+
+@media (max-width: 362px){
+
+    
+    .NS {
+        font-size: 24px;
+        top: 53em;
+    }
+
+    .blur {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        height: 251px;
+        border-radius: 20px;
+        width: 15em;
+        background: #00000073;
+    }
+
+    .paratu img {
+        height: 251px;
+        width: 15em;
+        z-index: 0;
+        border-radius: 20px;
+        filter: blur(4px);
+    }
+}
+
+@media (max-width: 340px){
+    .cuadrado{
+        width: 15.438em;
+    }
+
+    .Para_ti p{
+        font-size: 18px;
+    }
+
+    .Para_ti h4{
+        font-size: 15px;
+    } 
+}

@@ -1,0 +1,244 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+  width: 100%;
+  height: 166.8%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 26em;
+  padding: 50px 0px 0px 0px;
+}
+
+  header .h{
+    font-family: Hatton;
+    font-weight: 400;
+    font-size: 30px;
+    width: 240px;
+  }
+
+  header .H {
+    font-family: OpenSauce;
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 17px;
+    font-weight: 400;
+    height: 50px;
+    width: 163px;
+    margin-top: 50px;
+}
+
+  header .ima{
+    height: 100px;
+    width: 174px;
+  }
+
+  .cuadroPapa {
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cuadrado{
+  position: relative;
+    background: linear-gradient(-45deg, #000000, #3331c4, #000000, #3331c4);
+	  background-size: 400% 400%;
+	  animation: gradient 5s cubic-bezier(0.4, 0, 1, 1) infinite;
+    width: 68.438em;
+    height: 335px;
+    border-radius: 36px;
+    animation-fill-mode: both;
+    -webkit-box-shadow: 10px 10px 102px -36px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 102px -36px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 102px -36px rgba(0,0,0,0.75);
+    transition: 500ms;
+}
+
+.edi{
+  position: absolute;
+  top: -12%;
+  left: 54%;
+  height: 500px;
+  width: 500px;
+}
+
+.cuadradoh{
+  position: absolute;
+  color: white;
+  font-family: OpenSauce;
+  top: 40%;
+  left: 68px;
+}
+
+.cuadrado h3 {
+  position: absolute;
+  color: white;
+  font-family: OpenSauce;
+  top: 65%;
+  left: 67px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.cuadrado p{
+  position: absolute;
+  color: white;
+  font-family: OpenSauce;
+  top: 34%;
+  left: 69px;
+}
+
+.Para_ti {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  margin-top: -300px;
+}
+
+
+.Para_ti p{
+  padding-top: 370px;
+  font-family: Hatton;
+  font-size: 35px;
+  font-weight: lighter;
+  color: black;
+}
+
+.Para_ti h4{
+  font-family: 'OpenSauce';
+  color: black;
+  text-align-last: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.casa, .casaG{
+  width: 170px;
+  height: 170px;
+}
+
+.casa{
+  margin-top: -300px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.casaG{
+  border-radius: 50px 0px 0px 50px;
+}
+
+.images{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paratu{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.sechion{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.paratu img {
+  height: 399px;
+  width: 45em;
+  z-index: 0;
+  border-radius: 20px;
+  filter: blur(4px);
+}
+
+.blur {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  height: 399px;
+  border-radius: 20px;
+  width: 45em;
+  background: #00000073;
+}
+
+.NS{
+  position: absolute;
+  top: 26.9em;
+  z-index: 2;
+  font-family: Hatton;
+  color: white;
+  font-size: 50px;
+}
+
+.card-group{
+  margin-top: 150px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #3e1e04;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fl{
+  z-index: 1;
+  height: 1px;
+  width: 90%;
+  margin-top: 62px;
+  background: white;
+}
+
+.ksa {
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  left: 38px;
+  top: -7px;
+}
+
+footer p {
+  position: absolute;
+  left: 76px;
+  top: 80px;
+  color: white;
+  font-size: 10px;
+}
+
+footer img{
+  height: 30px;
+  width: 30px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
