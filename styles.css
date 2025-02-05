@@ -95,6 +95,10 @@ header {
   left: 69px;
 }
 
+.cuadroPapa a{
+	text-decoration: none;
+}
+
 .Para_ti {
   display: flex;
   flex-direction: column;
